@@ -1,4 +1,5 @@
-{{#if addNewQuestion}}
+<div class="form-holder">
+    {{#if addNewQuestion}}
     <form>
         <div class="form-group">
             <label>Title:</label>
@@ -11,6 +12,7 @@
         </div>
         <button {{action 'saveQuestion'}} class="btn">Submit</button>
     </form>
-{{else}}
-<button {{action 'questionFormShow'}} class="btn btn-default">New Question?</button>
-{{/if}}
+    {{else}}
+    <button {{action 'questionFormShow'}} class="btn btn-default">New Question?</button>
+    {{/if}}
+</div>
