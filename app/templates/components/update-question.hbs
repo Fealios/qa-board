@@ -1,0 +1,11 @@
+{{#if updateQuestion}}
+    <form>
+        {{input value=model.title}}
+        <br>
+        {{textarea value=model.body}}
+        <br>
+        <button {{action 'update' model}}>Save Changes</button>
+    </form>
+{{else}}
+    <button {{action 'questionUpdateShow'}}>Update</button>
+{{/if}}
