@@ -57,17 +57,20 @@ textarea {
 }
 
 .question-top {
-    margin-top: 15px;
-    margin-left: 35px;
     background-color: #FDF7EF;
+    margin-left: none;
+    margin-left: 35px;
+    padding-left: 35px;
+    width: 100%;
+    border-radius: 3px;
 }
 
 .answer {
-    margin-left: 35px;
+    margin-left: 55px;
 }
 
 .answer-title {
     font-size: 20px;
-    margin-left: 55px;
+    margin-left: 70px;
     margin-top: 40px;
 }
