@@ -1,7 +1,11 @@
-{{model.title}}
-{{model.body}}
+<div class="question-top">
+    <h3>Q: {{model.title}}</h3>
+    <p>{{model.body}}</p>
+</div>
 
+<h5 class="answer-title"> Answers: </h5>
 {{answer-list model=model}}
 
 {{new-answer saveAnswer="saveAnswer" question=model}}
+
 {{update-question model=model update="update"}}

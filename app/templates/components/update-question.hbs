@@ -1,11 +1,18 @@
-{{#if updateQuestion}}
+<div class="form-holder">
+    {{#if updateQuestion}}
     <form>
+        <label>Title:</label>
+        <br>
         {{input value=model.title}}
+        <br>
+        <label>Details</label>
         <br>
         {{textarea value=model.body}}
         <br>
-        <button {{action 'update' model}}>Save Changes</button>
+        <button {{action 'update' model}} class="btn btn-primary">Save Changes</button>
     </form>
-{{else}}
-    <button {{action 'questionUpdateShow'}}>Update</button>
-{{/if}}
+    {{else}}
+    <button {{action 'questionUpdateShow'}} class="btn btn-primary">Update</button>
+    {{/if}}
+
+</div>

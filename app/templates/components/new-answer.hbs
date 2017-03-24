@@ -1,8 +1,15 @@
-<form>
-    <div class="form-group">
-        {{input value=author id="author"}}
-        <br>
-        {{textarea value=body id="body"}}
-    </div>
-    <button {{action 'saveAnswer'}}> Save </button>
-</form>
+<div class="form-holder">
+    <form>
+        <div class="form-group">
+            <label>Author:</label>
+            <br>
+            {{input value=author id="author"}}
+            <br>
+            <label>Answer:</label>
+            <br>
+            {{textarea value=body id="body"}}
+        </div>
+        <button {{action 'saveAnswer'}} class="btn btn-default"> Reply </button>
+    </form>
+
+</div>

@@ -1,3 +1,6 @@
+/*@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');*/
+@import url('https://fonts.googleapis.com/css?family=Kalam|Kaushan+Script');
+
 div {
     /*border: solid;*/
 }
@@ -6,25 +9,65 @@ li {
     list-style-type: none;
 }
 
-#top {
-    background-color: #ADD8E6;
-    margin-top: -20px;
-    height: 100px;
-    padding: 5px;
+body {
+    background-color: #E9E9E9;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
-footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-    text-align: left;
+#top {
+    background-color: #ADD8E6;
+    margin-top: 10px;
+    height: 110px;
+    padding: 5px;
+    padding-left: 20px;
+    /*font-family: 'Kaushan Script', cursive;*/
+    font-family: 'Kalam', cursive;
+    font-weight: none;
+    border-radius: 3px;
+}
+
+#top p {
+    font-size: 17px;
+}
+
+#top h1 {
+    font-size: 45px;
 }
 
 .form-holder {
-    border: solid;
     margin-top: 70px;
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+.question {
+    /*height: 60px;*/
+    /*padding: 10px;*/
+    background-color: #FDF7EF;
+    margin-left: none;
+    padding-left: 35px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+textarea {
+    height: 100px;
+    width: 300px;
+}
+
+.question-top {
+    margin-top: 15px;
+    margin-left: 35px;
+    background-color: #FDF7EF;
+}
+
+.answer {
+    margin-left: 35px;
+}
+
+.answer-title {
+    font-size: 20px;
+    margin-left: 55px;
+    margin-top: 40px;
 }

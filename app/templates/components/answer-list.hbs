@@ -1,5 +1,13 @@
 <ul>
     {{#each model.answers as |answer|}}
-        <li>{{answer.body}}</li>
+        <li>
+            <div class="answer">
+                <strong class="answer-author">{{answer.author}} writes:</strong>
+                <br>
+                <p>
+                    {{answer.body}}
+                </p>
+            </div>
+        </li>
     {{/each}}
 </ul>
