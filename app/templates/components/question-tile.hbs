@@ -1,1 +1,6 @@
-{{yield}}
+<li>
+    <div class="question">
+        <h3>{{#link-to 'question' question.id }}{{question.title}} {{/link-to}} </h3>
+        <p>{{question.body}}</p>
+    </div>
+</li>

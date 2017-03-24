@@ -18,10 +18,10 @@ module.exports = function(environment) {
     },
 
     firebase: {
-        apiKey: "AIzaSyAiDuhlxe8pvlSvhffTyineZbaL0HAQMSU",
-        authDomain: "bustle-54cb7.firebaseapp.com",
-        databaseURL: "https://bustle-54cb7.firebaseio.com",
-        storageBucket: "bustle-54cb7.appspot.com"
+        apiKey: "AIzaSyBc8q4Nd6lSuR5nyLiGDyJXY9pYtYLL9Wo",
+        authDomain: "qa-board-2db9a.firebaseapp.com",
+        databaseURL: "https://qa-board-2db9a.firebaseio.com",
+        storageBucket: "qa-board-2db9a.appspot.com",
     },
 
     APP: {
