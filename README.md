@@ -1,7 +1,6 @@
 # qa-board
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a Question and Answer board create by myself, Melvin Gruschow (copywrite 3/24/2017) as intended to complete the objectives for Epicodus end of week 12 friday project.  It is a ember js and firebase web application.
 
 ## Prerequisites
 
