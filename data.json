@@ -1,6 +1,16 @@
 {
-    "questions": [{
-        "title": "Why do airplanes stay up?",
-        "body": "like seriously, just big metal tubes that can stay in the air so long as they have fuel.  That's not natural."
-    }]
+  "answers" : [ {
+    "author" : "Melvin",
+    "body" : "well melvin we like dogs because they are fun and cute"
+  } ],
+  "questions" : {
+    "0" : {
+      "body" : "like seriously, just big metal tubes that can stay in the air so long as they have fuel.  That's not natural.",
+      "title" : "Why do airplanes stay up?"
+    },
+    "-Kg0N5xd7MibLqoSnST3" : {
+      "body" : "They're so much work, they smell and destroy your house.  They're also so clingy and needy you and people constantly refuse to discipline their dogs.  Just why?",
+      "title" : "Why do we like dogs?"
+    }
+  }
 }
